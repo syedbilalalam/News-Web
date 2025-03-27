@@ -1,0 +1,20 @@
+body::-webkit-scrollbar{
+  background-color: whitesmoke;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to right top, #2c11e3, #7f25e5, #af41e7, #d45eeb, #f47ef1);
+  border-radius: 8px;
+}
+div#root{
+  text-align: center;
+}
+div.card{
+  text-align: initial;
+}
+div.navbar-nav{
+  margin-left: 50%;
+  gap: 100px;
+  font-size: larger;
+  color: white;
+}
