@@ -13,8 +13,17 @@ div.card{
   text-align: initial;
 }
 div.navbar-nav{
-  margin-left: 50%;
-  gap: 100px;
+  /* margin-left: 50%; */ /* contributed by syed bilal alam */
+  gap: 25px; /* contributed by syed bilal alam */
   font-size: larger;
   color: white;
+}
+
+
+/* Syed Bilal Alam's contributions */
+.container-fluid{
+  justify-content:space-between !important;
+}
+#navbarNavAltMarkup.navbar-collapse{
+  flex-grow:0 !important;
 }
